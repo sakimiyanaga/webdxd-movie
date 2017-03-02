@@ -29,16 +29,12 @@ footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: 100;
-	letter-spacing: 1px;
-	border-top: solid 1px white;
 }
 
 .glyphicon {
 	padding: 10px;
 }
-#message {
-	height: 4 row;
-}
+
 .navbar {
 	background-color: rgba(255,255,255,0.5);
 }
@@ -49,7 +45,7 @@ footer {
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
+  background-color: white;
   background-image: none;
   border: 2px solid #f9f898;
   border-radius: 5;
@@ -98,37 +94,33 @@ header {
 	color: rgb(249,248,152);
 }
 
+.portfolio-img {
+	border-radius: 10px;
+}
+
 .portfolio-caption p {
 	font-style: italic;
-	color: rgb(242,227,94);
-}
-.float-right {
-	color: white;
-	font-size: 36px;
-	font-weight: 500;
-	margin-top: 15%;
-	margin-bottom: 15%
+	color: grey;
 }
 
-.float-right h1 {
-	margin-bottom: 30px;
-	font-size: 50px;
+form {
+	margin-bottom: 20px;
 }
 
-.col-sm-4 img {
-	max-width: 300px;
+.form-group textarea,
+.form-group input {
+	border-radius: 0;
+}
+.btn,
+.btn-x1 {
+	background-color: rgb(249,248,152);
+	color: grey;
 }
 
-.col-sm-4 a {
-	color: black;
-	font-size: 34px;
-	text-decoration: none;
-	transition: 0.5s;
+@media only screen and (max-width: 768px){
+.form-group{
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: auto;
 }
-.col-sm-4 a:hover {
-	font-size: 36px;
-}
-
-.description {
-	text-align: left;
 }
